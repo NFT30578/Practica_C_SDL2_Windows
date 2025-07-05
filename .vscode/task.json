@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compilar SDL2",
+            "type": "shelll",
+            "command": "gcc",
+            "args": [
+                "-o", "main",
+                "src/main.c",
+                "`sdl2-config --cflags --libs`",
+                "-lSDL2_image",
+                "-lSDL2_ttf",
+                "-lSDL2_mixer"
+            ],
+            "problemMatcher": ["$gcc"],
+            "group":{
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

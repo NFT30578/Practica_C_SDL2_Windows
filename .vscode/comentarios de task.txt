@@ -1,0 +1,11 @@
+//version es la versión del archivo de configuración de tareas de VS Code
+//tasks es una lista de tareas que se pueden ejecutar en el entorno de desarrollo
+//label es el nombre de la tarea que se mostrará en la interfaz de usuario
+//type indica el tipo de tarea, en este caso es una tarea de shell
+//command es el comando que se ejecutará, en este caso es gcc para compilar código
+//args es una lista de argumentos que se pasan al comando, incluyendo el archivo fuente y las
+// opciones de compilación necesarias para SDL2 y sus extensiones
+//problemMatcher es una lista de patrones que se utilizan para detectar problemas en la salida del comando
+//group define el grupo al que pertenece la tarea, en este caso es un grupo de compilación
+// isDefault indica si esta tarea es la tarea de compilación predeterminada del proyecto
+// Este archivo de configuración permite compilar un proyecto C que utiliza SDL2 y sus extensiones
