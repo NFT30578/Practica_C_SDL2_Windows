@@ -1,6 +1,20 @@
+//configura el entorno de compilación para un proyecto C con SDL2 y SDL2_ttf
+// este archivo tasks.json define una tarea de compilación que utiliza gcc para compilar el código
+// fuente ubicado en src/main.c, incluyendo las bibliotecas de SDL2 y SDL2_ttf
+// las rutas de inclusión y las bibliotecas se especifican para que el compilador pueda encontrar
+// los archivos necesarios para la compilación
+// la tarea se agrupa como una tarea de compilación y se marca como la tarea predeterminada
+// se utiliza el "problemMatcher" de GCC para detectar errores de compilación y
+// advertencias en el código fuente
+// el detalle de la tarea indica que se compila el programa principal
+// el comando de compilación genera un ejecutable llamado "main" en el directorio actual
+// este archivo es útil para automatizar el proceso de compilación y facilitar el desarrollo
+// del proyecto C utilizando Visual Studio Code como entorno de desarrollo
+// el archivo tasks.json se encuentra en el directorio .vscode del proyecto
+// este archivo es parte de la configuración del entorno de desarrollo y no debe ser modificado manual
 {
-  "version": "2.0.0",
-  "tasks": [
+  "version": "2.0.0", // especifica la versión del formato de archivo
+  "tasks": [ // define una lista de tareas que se pueden ejecutar
     {
       "label": "build",
       "type": "shell",
