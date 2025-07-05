@@ -15,9 +15,9 @@ CC = gcc
 #las banderas de compilacion son las opciones que se pasan al compilador
 #sirven para especificar opciones de compilacion, como incluir directorios de encabezados
 #empiezan con -I para incluir directorios de encabezados
-CFLAGS =	-Ithird_party/SDL2/SDL2-2.26.1/	-Ithird_party/SDL2/SDL2-2.26.1/include/SDL	-Ithird_party/SDL2_ttf-2.0.13
+CFLAGS =	-Ithird_party/SDL2/SDL2-2.26.1	-Ithird_party/SDL2/SDL2-2.26.1/include	-Ithird_party/SDL2_ttf-2.0.13 -Ithird_party/SDL2_ttf/SDL2_ttf-2.0.13/SDL_ttf
 
-#las banderas de enlace son las opciones que se pasan al enlazador se utilizan para especificar bibliotecas 
+#las banderas de enlace son las opciones que se pasan al enlazador, se utilizan para especificar bibliotecas 
 #y directorios de bibliotecas, comienzan con -L para especificar directorios donde se encuentrarn bibliotecas 
 #-l para especificar la biblioteca a enlazar
 LDFLAGS =	-Lthird_party/SDL2/lib	-Lthird_party/SDL2_ttf/lib	-lSDL2 -lSDL2_ttf
