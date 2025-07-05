@@ -1,0 +1,11 @@
+1- abrir MSYS2 UCRT64
+2- ir a la carpeta donde esta alojado el proyecto:
+
+cd /c/Users/vikto/Documents/GitHub/Practica_C_SDL2_Windows
+
+3- compilar:
+
+//modificar cuando se añada mas contenido como imagenes..
+gcc -o main src/main.c `sdl2-config --cflags --libs`
+
+4- abrir excel
