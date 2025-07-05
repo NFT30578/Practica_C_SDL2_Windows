@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "-o", "main",
+        "src/main.c",
+        "-Ithird_party/SDL2/include",
+        "-Ithird_party/SDL2_ttf/include",
+        "-Lthird_party/SDL2/lib",
+        "-Lthird_party/SDL2_ttf/lib",
+        "-lSDL2",
+        "-lSDL2_ttf"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "detail": "Compila el programa principal"
+    }
+  ]
+}
