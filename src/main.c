@@ -58,5 +58,6 @@ int main(int argc, char* argv[]) {
     SDL_DestroyWindow(window);
     TTF_Quit();
     SDL_Quit();
+    //
     return 0;
 }
