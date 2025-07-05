@@ -1,0 +1,8 @@
+Package: libtmenu
+Version: 0.1-1
+Depends: libc, libssp, librt, libpthread, libsdl, libsdl-image, libsdl-ttf, tinyalsa-lib
+Source: package/miyoo/trimui_menu
+Section: utils
+Architecture: sunxi
+Installed-Size: 287254
+Description:  miyoo menu

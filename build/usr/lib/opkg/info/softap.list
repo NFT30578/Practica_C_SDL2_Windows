@@ -1,0 +1,6 @@
+/etc/wifi/udhcpd.conf
+/usr/include/response_code.h
+/usr/include/command_listener.h
+/lib/libsoftap.so
+/etc/wifi/hostapd.conf
+/usr/include/aw_softap_intf.h

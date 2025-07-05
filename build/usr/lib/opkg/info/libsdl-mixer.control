@@ -1,0 +1,8 @@
+Package: libsdl-mixer
+Version: 1.2.12-12
+Depends: libc, libssp, librt, libpthread, libsdl, libmad
+Source: package/miyoo/sdl_mixer
+Section: utils
+Architecture: sunxi
+Installed-Size: 23277
+Description:  SDL mixer library.

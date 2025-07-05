@@ -1,0 +1,8 @@
+Package: libshmvar
+Version: 0.1-1
+Depends: libc, libssp, librt, libpthread, libpthread
+Source: package/miyoo/shmvar
+Section: utils
+Architecture: sunxi
+Installed-Size: 4259
+Description:  shared memory variable

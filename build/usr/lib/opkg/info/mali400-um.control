@@ -1,0 +1,8 @@
+Package: mali400-um
+Version: 1.0.0-1
+Depends: libc, libssp, librt, libpthread, kmod-mali-utgard-km
+Source: package/libs/gpu-um
+Section: libs
+Architecture: sunxi
+Installed-Size: 674402
+Description:  Mali-400 userspace libraries

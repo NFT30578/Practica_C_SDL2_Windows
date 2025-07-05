@@ -1,0 +1,8 @@
+Package: usb_storage
+Version: 1.0-1
+Depends: libc, libssp, librt, libpthread, libsdl, libsdl-image, zlib, alsa-lib
+Source: package/miyoo/usb_storage_internal
+Section: utils
+Architecture: sunxi
+Installed-Size: 91393
+Description:  udp broadcast

@@ -1,0 +1,8 @@
+Package: smartlinkd-demo
+Version: 0.2.1-1
+Depends: libc, libssp, librt, libpthread, smartlinkd-lib, wifimanager
+Source: package/allwinner/smartlinkd
+Section: utils
+Architecture: sunxi
+Installed-Size: 15090
+Description:  smartlink demo

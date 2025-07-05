@@ -1,0 +1,8 @@
+Package: joypad_input
+Version: 1
+Depends: libc, libssp, librt, libpthread
+Source: package/miyoo/joypad_input
+Section: utils
+Architecture: sunxi
+Installed-Size: 4979
+Description:  joypad_input

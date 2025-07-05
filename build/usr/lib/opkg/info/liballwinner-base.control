@@ -1,0 +1,8 @@
+Package: liballwinner-base
+Version: 1-1
+Depends: libc, libssp, librt, libpthread
+Source: package/allwinner/liballwinner-base
+Section: utils
+Architecture: sunxi
+Installed-Size: 6824
+Description:  base

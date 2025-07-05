@@ -1,0 +1,2 @@
+/etc/modules-boot.d/50-sunxi-disp
+/etc/modules.d/50-sunxi-disp

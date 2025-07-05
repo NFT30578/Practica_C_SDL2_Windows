@@ -1,0 +1,32 @@
+buenas prácticas para proyectos de juegos en C:
+
+Organización recomendada
+Carpeta src
+
+Aquí van tus archivos .c, separados por funcionalidad.
+Ejemplo:
+src/jugador.c (lógica del jugador)
+src/enemigo.c (lógica de enemigos)
+src/nivel.c (lógica de niveles)
+main.c (punto de entrada)
+Carpeta include
+
+Aquí van los headers .h correspondientes.
+Ejemplo:
+include/jugador.h
+include/enemigo.h
+include/nivel.h
+Subcarpetas (opcional, para juegos grandes)
+
+Si tu juego crece, puedes hacer subcarpetas por módulo:
+Así mantienes todo agrupado y fácil de encontrar.
+Agrupa funciones relacionadas
+
+Cada .c y .h debe contener solo lo relacionado a ese módulo (por ejemplo, todo lo de jugador en jugador.c y jugador.h).
+No mezcles lógica de diferentes sistemas
+
+Mantén separado el render, la lógica, el input, etc.
+Ejemplo de estructura simple y ordenada
+¿Cómo “simular” clases en C?
+Usa structs y funciones asociadas:
+Así tienes “módulos” y “objetos” aunque no haya clases.

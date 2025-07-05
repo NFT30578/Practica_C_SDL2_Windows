@@ -1,0 +1,8 @@
+Package: miyooUI
+Version: 1.0-1
+Depends: libc, libssp, librt, libpthread, libsdl2, libsdl2-image, libsdl2-ttf, libstdcpp, tinyalsa-lib, libshmvar, libsdl2-mixer, libgamename, libpthread, librt, librsautil, libmagic_file
+Source: package/miyoo/UI
+Section: utils
+Architecture: sunxi
+Installed-Size: 4281527
+Description:  Trimui main UI

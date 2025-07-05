@@ -1,0 +1,8 @@
+Package: getevent
+Version: 1
+Depends: libc, libssp, librt, libpthread
+Source: package/utils/getevent
+Section: utils
+Architecture: sunxi
+Installed-Size: 11927
+Description:  getevent for Android Toolbox

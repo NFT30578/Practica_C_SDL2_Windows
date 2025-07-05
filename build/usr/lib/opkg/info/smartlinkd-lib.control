@@ -1,0 +1,8 @@
+Package: smartlinkd-lib
+Version: 0.2.1-1
+Depends: libc, libssp, librt, libpthread, libpthread, libstdcpp, liballwinner-base, alsa-lib, libopenssl, libuci
+Source: package/allwinner/smartlinkd
+Section: utils
+Architecture: sunxi
+Installed-Size: 10302
+Description:  smartlink for none input wifi direct platform

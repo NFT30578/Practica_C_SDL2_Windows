@@ -1,0 +1,10 @@
+Package: alsa-lib
+Version: 1.2.4-1
+Depends: libc, libssp, librt, libpthread, kmod-sound-core, libpthread, librt
+Source: package/libs/alsa-lib
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>, Peter Wagner <tripolar@gmx.at>
+Architecture: sunxi
+Installed-Size: 329581
+Description:  This is the library package for alsa, needed by some userspace programs.
+ You must have enabled the ALSA support in the kernel.

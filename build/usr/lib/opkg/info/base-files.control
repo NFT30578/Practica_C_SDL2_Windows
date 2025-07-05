@@ -1,0 +1,9 @@
+Package: base-files
+Version: 167-1720836914
+Depends: libc, libssp, librt, libpthread, netifd, procd, jsonfilter, fstools
+Source: package/base-files
+License: GPL-2.0
+Section: base
+Architecture: sunxi
+Installed-Size: 35029
+Description:  This package contains a base filesystem and system scripts for OpenWrt.

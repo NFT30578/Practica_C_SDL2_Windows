@@ -1,0 +1,9 @@
+Package: libsdl2
+Version: 2.26.1-226
+Depends: libc, libssp, librt, libpthread, alsa-lib
+Source: package/miyoo/libsdl2
+Section: utils
+Architecture: sunxi
+Installed-Size: 371790
+Description:  SDL2 is a library that allows programs portable low level access to a video
+ framebuffer, audio output, mouse, and keyboard.

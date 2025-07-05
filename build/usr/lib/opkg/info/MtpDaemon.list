@@ -1,0 +1,3 @@
+/etc/init.d/mtp
+/usr/sbin/MtpDaemon
+/usr/bin/MtpTools

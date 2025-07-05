@@ -1,0 +1,8 @@
+Package: keymon
+Version: 1
+Depends: libc, libssp, librt, libpthread, libshmvar, tinyalsa-lib
+Source: package/miyoo/keymon
+Section: utils
+Architecture: sunxi
+Installed-Size: 24680
+Description:  key monitor

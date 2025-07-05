@@ -1,0 +1,10 @@
+Package: kmod-sunxi-lcd
+Version: 3.4.39-1
+Depends: kernel (=3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285), kmod-sunxi-disp
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: sunxi
+Installed-Size: 232
+Description:  Kernel modules for sunxi-lcd support

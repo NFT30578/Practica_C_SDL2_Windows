@@ -1,0 +1,8 @@
+Package: libsdl2-mixer
+Version: 2.0.1-21
+Depends: libc, libssp, librt, libpthread, libsdl2, libmad
+Source: package/miyoo/sdl2_mixer
+Section: utils
+Architecture: sunxi
+Installed-Size: 56620
+Description:  SDL2 mixer

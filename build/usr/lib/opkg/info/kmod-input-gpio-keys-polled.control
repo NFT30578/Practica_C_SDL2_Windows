@@ -1,0 +1,13 @@
+Package: kmod-input-gpio-keys-polled
+Version: 3.4.39-1
+Depends: kernel (=3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285), kmod-input-polldev
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: sunxi
+Installed-Size: 3486
+Description:  Kernel module for support polled GPIO keys input device
+ 
+ See also gpio-button-hotplug which is an alternative, lower overhead
+ implementation that generates uevents instead of kernel input events.

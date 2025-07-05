@@ -1,0 +1,901 @@
+Package: terminfo
+Version: 5.9-3
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: tinyalsa-lib
+Version: 1.1.1-34ffa583936aeb6938636c9c0a26a322b69b0d26
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: miyooUI
+Version: 1.0-1
+Depends: libc, libssp, librt, libpthread, libsdl2, libsdl2-image, libsdl2-ttf, libstdcpp, tinyalsa-lib, libshmvar, libsdl2-mixer, libgamename, libpthread, librt, librsautil, libmagic_file
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libgamename
+Version: 0.1-1
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libc
+Version: -1
+Depends: libgcc
+Status: install hold installed
+Essential: yes
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: libjpeg
+Version: 9a-1
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libpthread
+Version: -1
+Depends: libgcc
+Status: install hold installed
+Essential: yes
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: ubus
+Version: 2016-01-26-619f3a160de4f417226b69039538882787b3811c
+Depends: libc, libssp, librt, libpthread, libubus, libblobmsg-json, ubusd
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: iw
+Version: 4.3-1
+Depends: libc, libssp, librt, libpthread, libnl-tiny
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: kmod-crypto-manager
+Version: 3.4.39-1
+Depends: kernel (= 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285), kmod-crypto-aead, kmod-crypto-hash, kmod-crypto-pcompress
+Status: install hold installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: kmod-crypto-pcompress
+Version: 3.4.39-1
+Depends: kernel (= 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285)
+Status: install hold installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: alsa-lib
+Version: 1.2.4-1
+Depends: libc, libssp, librt, libpthread, kmod-sound-core, libpthread, librt
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: busybox
+Version: 1.27.2-3
+Depends: libc, libssp, librt, libpthread, jsonfilter
+Provides: ip
+Status: install user installed
+Essential: yes
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libatomic
+Version: -1
+Depends: libgcc
+Status: install hold installed
+Essential: yes
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: smartlinkd-lib
+Version: 0.2.1-1
+Depends: libc, libssp, librt, libpthread, libpthread, libstdcpp, liballwinner-base, alsa-lib, libopenssl, libuci
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: kmod-crypto-hash
+Version: 3.4.39-1
+Depends: kernel (= 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285)
+Status: install hold installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: kmod-sunxi-lcd
+Version: 3.4.39-1
+Depends: kernel (= 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285), kmod-sunxi-disp
+Status: install hold installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: kmod-crypto-aead
+Version: 3.4.39-1
+Depends: kernel (= 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285)
+Status: install hold installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: strace
+Version: 4.10-1
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libogg
+Version: 1.3.2-2
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: mtd-utils-flash-erase
+Version: 1.5.2-3
+Depends: libc, libssp, librt, libpthread, mtd-utils
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: adb
+Version: 0.0.1-1
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: base-files
+Version: 167-1720836914
+Depends: libc, libssp, librt, libpthread, netifd, procd, jsonfilter, fstools
+Status: install user installed
+Architecture: sunxi
+Conffiles:
+ /etc/config/system 67a31ebcaaf0ec5a678480c25df358730b
+ /etc/hosts c1a978d90673437b35fa9494e0a5429406
+ /etc/inittab f3d1d58ca2a9ef33a56d668d9693231ec4
+ /etc/group 35b63adf31591ac37358e918a5e8d4f9c1
+ /etc/passwd 6a451aa33393f47ade89b8bce4d9711818
+ /etc/shadow 81cbbae0b8285ae075ad50613355d160b2
+ /etc/profile 89aa168d9a8b9dd05f0a153939e71cf2b4
+ /etc/protocols 7d551355d5540b07b9d86e623cbbc4abec
+ /etc/services 47f3393d265c8cefc2d1ec72f8b0b02cde
+ /etc/shells 8b35ce73c18161a7d7ed16fa244410993b
+ /etc/sysctl.conf 427dedc19aa6bfb2e9d5c59d9aa0af8445
+ /etc/rc.local b4cb5dbdc3f06811f8e3f7a6d2d459e00b
+ /etc/sysupgrade.conf 9e87b05fe2f12c84d1c465b39632274847
+ /etc/config/system 67a31ebcaaf0ec5a678480c25df358730b
+ /etc/config/aw_bluetooth a45a6a19a6279dd0d99d597e1654fce26e
+ /etc/config/fstab d9ee2f866492ad7eaf2dbf9ae74b46228a
+ /etc/config/smartlinkd 65ae95d31307b2adcaa521750032b07238
+ /etc/sysctl.d/local.conf 43cedc0217825c00cb1a3d49e7be43c06f
+ /etc/sysctl.d/local.conf 43cedc0217825c00cb1a3d49e7be43c06f
+ /etc/iproute2/rt_tables f771e2b81741f70e3faf658dc504f0dc04
+Installed-Time: 1610978632
+
+Package: kmod-lib-crc16
+Version: 3.4.39-1
+Depends: kernel (= 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285)
+Status: install hold installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: kmod-input-core
+Version: 3.4.39-1
+Depends: kernel (= 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285)
+Status: install hold installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: liballwinner-base
+Version: 1-1
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: netifd
+Version: 2016-02-01-3610a24b218974bdf2d2f709a8af9e4a990c47bd
+Depends: libc, libssp, librt, libpthread, libuci, libnl-tiny, libubus, ubus, ubusd, jshn, libubox
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: libsdl2-mixer
+Version: 2.0.1-21
+Depends: libc, libssp, librt, libpthread, libsdl2, libmad
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: bzip2
+Version: 1.0.6-2
+Depends: libc, libssp, librt, libpthread, libbz2
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: uboot-envtools
+Version: 2018.03-2
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Conffiles:
+ /etc/fw_env.config 16240054c5679cdabe66253c77df852240
+Installed-Time: 1610978632
+
+Package: dnsmasq
+Version: 2.78-1
+Depends: libc, libssp, librt, libpthread, libubus
+Status: install user installed
+Architecture: sunxi
+Conffiles:
+ /etc/config/dhcp ea7e088c1b84b8a1d0cf39577ef758dcae
+ /etc/dnsmasq.conf db091cf7a0c6df973edcc56d30326791bb
+Installed-Time: 1610978632
+
+Package: procd
+Version: 2016-02-08-57fe34225206c572b5e049826505f738191e4db5
+Depends: libc, libssp, librt, libpthread, ubusd, ubus, libjson-script, ubox, libubox, libubus
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: libblkid
+Version: 2.25.2-4
+Depends: libc, libssp, librt, libpthread, libuuid
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: fw_update
+Version: 1
+Depends: libc, libssp, librt, libpthread, libsdl, alsa-lib
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: ubusd
+Version: 2016-01-26-619f3a160de4f417226b69039538882787b3811c
+Depends: libc, libssp, librt, libpthread, libubox, libblobmsg-json
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: kmod-mali-utgard-km
+Version: 3.4.39-2
+Depends: kernel (= 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285), kmod-sunxi-disp
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: libsdl
+Version: 1.2.15-15
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: libsdl-image
+Version: 1.2.12-12
+Depends: libc, libssp, librt, libpthread, libsdl
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: wifimanager
+Version: 0.0.1-1
+Depends: libc, libssp, librt, libpthread, libpthread, libstdcpp, liballwinner-base
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: libsdl2
+Version: 2.26.1-226
+Depends: libc, libssp, librt, libpthread, alsa-lib
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: block-mount
+Version: 2016-01-10-96415afecef35766332067f4205ef3b2c7561d21
+Depends: libc, libssp, librt, libpthread, ubox, libubox, libuci
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libvorbis
+Version: 1.3.5-1
+Depends: libc, libssp, librt, libpthread, libogg
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: getevent
+Version: 1
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libuci
+Version: 2016-02-02.1-1
+Depends: libc, libssp, librt, libpthread, libubox
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: libip4tc
+Version: 1.4.21-2
+Depends: libc, libssp, librt, libpthread, libxtables
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: mtd-utils
+Version: 1.5.2-3
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: fstools
+Version: 2016-01-10-96415afecef35766332067f4205ef3b2c7561d21
+Depends: libc, libssp, librt, libpthread, ubox
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: libpng
+Version: 1.2.56-1
+Depends: libc, libssp, librt, libpthread, zlib
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libtmenu
+Version: 0.1-1
+Depends: libc, libssp, librt, libpthread, libsdl, libsdl-image, libsdl-ttf, tinyalsa-lib
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: uci
+Version: 2016-02-02.1-1
+Depends: libc, libssp, librt, libpthread, libuci
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: mtd-utils-mkfs.jffs2
+Version: 1.5.2-3
+Depends: libc, libssp, librt, libpthread, mtd-utils, zlib
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: kmod-input-evdev
+Version: 3.4.39-1
+Depends: kernel (= 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285), kmod-input-core
+Status: install hold installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: joypad_input
+Version: 1
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: kmod-input-gpio-keys-polled
+Version: 3.4.39-1
+Depends: kernel (= 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285), kmod-input-polldev
+Status: install hold installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libstdcpp
+Version: -1
+Status: install hold installed
+Essential: yes
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: mtd
+Version: 21
+Depends: libc, libssp, librt, libpthread, libubox
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: wpa-supplicant
+Version: 2017-11-08-2
+Depends: libc, libssp, librt, libpthread, libnl-tiny
+Conflicts: wpad, wpad-mini, wpad-mesh
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libjson-c
+Version: 0.12-1
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: libgcc
+Version: -1
+Status: install hold installed
+Essential: yes
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: softap
+Version: 0.0.1-1
+Depends: libc, libssp, librt, libpthread, libpthread, libstdcpp, liballwinner-base, libopenssl, iw, hostapd, dnsmasq, iptables
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libreadline
+Version: 6.3-1
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libshmvar
+Version: 0.1-1
+Depends: libc, libssp, librt, libpthread, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: libuuid
+Version: 2.25.2-4
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: libubox
+Version: 2016-02-26-5326ce1046425154ab715387949728cfb09f4083
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: kmod-sound-core
+Version: 3.4.39-1
+Depends: kernel (= 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285), kmod-input-core
+Status: install hold installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: eudev
+Version: 3.2-1
+Depends: libc, libssp, librt, libpthread, librt, libblkid
+Provides: udev
+Conflicts: udev
+Status: install user installed
+Architecture: sunxi
+Conffiles:
+ /etc/udev/udev.conf e12e5813b019420f80791ac43238a26a2d
+Installed-Time: 1610978632
+
+Package: kmod-input-polldev
+Version: 3.4.39-1
+Depends: kernel (= 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285), kmod-input-core
+Status: install hold installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: librt
+Version: -1
+Depends: libpthread
+Status: install hold installed
+Essential: yes
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: smartlinkd-demo
+Version: 0.2.1-1
+Depends: libc, libssp, librt, libpthread, smartlinkd-lib, wifimanager
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libjson-script
+Version: 2016-02-26-5326ce1046425154ab715387949728cfb09f4083
+Depends: libc, libssp, librt, libpthread, libubox
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: libblobmsg-json
+Version: 2016-02-26-5326ce1046425154ab715387949728cfb09f4083
+Depends: libc, libssp, librt, libpthread, libjson-c, libubox
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: kmod-crypto-ecb
+Version: 3.4.39-1
+Depends: kernel (= 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285), kmod-crypto-manager
+Status: install hold installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: iptables
+Version: 1.4.21-2
+Depends: libc, libssp, librt, libpthread, kmod-ipt-core, libip4tc, libxtables
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libsdl-ttf
+Version: 2.0.11-11
+Depends: libc, libssp, librt, libpthread, libfreetype, libsdl
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: MtpDaemon
+Version: 1-1
+Depends: libc, libssp, librt, libpthread, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: jshn
+Version: 2016-02-26-5326ce1046425154ab715387949728cfb09f4083
+Depends: libc, libssp, librt, libpthread, libjson-c, libubox, libblobmsg-json
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: libncurses
+Version: 5.9-3
+Depends: libc, libssp, librt, libpthread, terminfo
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: kmod-ipt-core
+Version: 3.4.39-1
+Depends: kernel (= 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285), kmod-nf-ipt
+Status: install hold installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: e2fsprogs
+Version: 1.42.12-1
+Depends: libc, libssp, librt, libpthread, libuuid, libext2fs
+Status: install user installed
+Architecture: sunxi
+Conffiles:
+ /etc/e2fsck.conf dece11e2b15f487d7d2bf9f96abe2eaaf9
+Installed-Time: 1610978632
+
+Package: libsdl2-image
+Version: 2.0.1-20
+Depends: libc, libssp, librt, libpthread, libsdl2
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libump
+Version: ec0680628744f30b8fac35e41a7bd8e23e59c39f-1
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: wpa-cli
+Version: 2017-11-08-2
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: hostapd
+Version: 2017-11-08-2
+Depends: libc, libssp, librt, libpthread, libnl-tiny, libubus
+Conflicts: wpad, wpad-mini, wpad-mesh
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libubus
+Version: 2016-01-26-619f3a160de4f417226b69039538882787b3811c
+Depends: libc, libssp, librt, libpthread, libubox
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: libxtables
+Version: 1.4.21-2
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: zlib
+Version: 1.2.8-1
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: libncursesw
+Version: 5.9-3
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: libmagic_file
+Version: 1.5.0-15
+Depends: libc, libssp, librt, libpthread, bzip2, zlib
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libssp
+Version: -1
+Status: install hold installed
+Essential: yes
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: keymon
+Version: 1
+Depends: libc, libssp, librt, libpthread, libshmvar, tinyalsa-lib
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: kmod-crypto-cmac
+Version: 3.4.39-1
+Depends: kernel (= 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285), kmod-crypto-hash
+Status: install hold installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libmad
+Version: 0.15.1b-3
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: alsa-conf-aw
+Version: 1.0.0-1
+Depends: libc, libssp, librt, libpthread, alsa-lib
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: usb_storage
+Version: 1.0-1
+Depends: libc, libssp, librt, libpthread, libsdl, libsdl-image, zlib, alsa-lib
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libsdl-mixer
+Version: 1.2.12-12
+Depends: libc, libssp, librt, libpthread, libsdl, libmad
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libext2fs
+Version: 1.42.12-1
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: ubox
+Version: 2016-03-07-fd4bb41ee7ab136d25609c2a917beea5d52b723b
+Depends: libc, libssp, librt, libpthread, libubox, ubusd, ubus, libubus, libuci
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: kernel
+Version: 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285
+Depends: libc, libssp, librt, libpthread
+Status: install hold installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: libnl-tiny
+Version: 0.1-5
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: libbz2
+Version: 1.0.6-2
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: mtd-utils-flash-eraseall
+Version: 1.5.2-3
+Depends: libc, libssp, librt, libpthread, mtd-utils, mtd-utils-flash-erase
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: librsautil
+Version: 0.1-1
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: alsa-utils
+Version: 1.1.0-1
+Depends: libc, libssp, librt, libpthread, alsa-lib, libncurses, libpthread, libncursesw
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: sdlloading
+Version: 1.0.0-1
+Depends: libc, libssp, librt, libpthread, libsdl, zlib, libsdl-ttf
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libsdl2-ttf
+Version: 2.0.13-13
+Depends: libc, libssp, librt, libpthread, libfreetype, libsdl2
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: kmod-nls-base
+Version: 3.4.39-1
+Depends: kernel (= 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285)
+Status: install hold installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libfreetype
+Version: 2.5.5-2
+Depends: libc, libssp, librt, libpthread, zlib, libbz2
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: jsonfilter
+Version: 2014-06-19-cdc760c58077f44fc40adbbe41e1556a67c1b9a9
+Depends: libc, libssp, librt, libpthread, libubox, libjson-c
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: mali400-um
+Version: 1.0.0-1
+Depends: libc, libssp, librt, libpthread, kmod-mali-utgard-km
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: hostapd-common
+Version: 2017-11-08-2
+Depends: libc, libssp, librt, libpthread, libubus
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: kmod-sunxi-disp
+Version: 3.4.39-1
+Depends: kernel (= 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285)
+Status: install hold installed
+Architecture: sunxi
+Installed-Time: 1610978632
+Auto-Installed: yes
+
+Package: wireless-tools
+Version: 29-5
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: kmod-hid
+Version: 3.4.39-1
+Depends: kernel (= 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285), kmod-input-core, kmod-input-evdev
+Status: install hold installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libattr
+Version: 20150922-1
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: libopenssl
+Version: 1.1.0i-1
+Depends: libc, libssp, librt, libpthread
+Status: install user installed
+Architecture: sunxi
+Installed-Time: 1610978632
+
+Package: kmod-touchscreen-gt82x
+Version: 3.4.39-1
+Depends: kernel (= 3.4.39-1-82f6b3bba7034b2f2f7049198a2c8285), kmod-input-core
+Status: install hold installed
+Architecture: sunxi
+Installed-Time: 1610978632
+

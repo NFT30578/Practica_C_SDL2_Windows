@@ -1,0 +1,10 @@
+Package: alsa-conf-aw
+Version: 1.0.0-1
+Depends: libc, libssp, librt, libpthread, alsa-lib
+Source: package/allwinner/alsa-conf-aw
+Section: utils
+Architecture: sunxi
+Installed-Size: 998
+Description:  ALSA configuration files for Allwinner R series Soc. This files contain some
+ useful pcm devices, such as playback with speaker, playback with headphone,
+ Loopback and so on.

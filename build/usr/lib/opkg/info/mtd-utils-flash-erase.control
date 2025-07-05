@@ -1,0 +1,8 @@
+Package: mtd-utils-flash-erase
+Version: 1.5.2-3
+Depends: libc, libssp, librt, libpthread, mtd-utils
+Source: package/utils/mtd-utils
+Section: utils
+Architecture: sunxi
+Installed-Size: 11849
+Description:  flash_erase package from mtd-utils

@@ -1,0 +1,8 @@
+Package: fw_update
+Version: 1
+Depends: libc, libssp, librt, libpthread, libsdl, alsa-lib
+Source: package/miyoo/fw_update
+Section: utils
+Architecture: sunxi
+Installed-Size: 92826
+Description:  firmware update

@@ -1,0 +1,8 @@
+Package: libsdl-ttf
+Version: 2.0.11-11
+Depends: libc, libssp, librt, libpthread, libfreetype, libsdl
+Source: package/miyoo/sdl_ttf
+Section: utils
+Architecture: sunxi
+Installed-Size: 8752
+Description:  SDL ttf library.

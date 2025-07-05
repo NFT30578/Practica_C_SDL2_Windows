@@ -1,0 +1,8 @@
+Package: sdlloading
+Version: 1.0.0-1
+Depends: libc, libssp, librt, libpthread, libsdl, zlib, libsdl-ttf
+Source: package/miyoo/sdlloading
+Section: utils
+Architecture: sunxi
+Installed-Size: 5151
+Description:  sdlloading

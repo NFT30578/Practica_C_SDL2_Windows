@@ -1,0 +1,8 @@
+Package: libsdl-image
+Version: 1.2.12-12
+Depends: libc, libssp, librt, libpthread, libsdl
+Source: package/miyoo/sdl_image
+Section: utils
+Architecture: sunxi
+Installed-Size: 7691
+Description:  SDL image library.

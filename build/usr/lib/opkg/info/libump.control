@@ -1,0 +1,10 @@
+Package: libump
+Version: ec0680628744f30b8fac35e41a7bd8e23e59c39f-1
+Depends: libc, libssp, librt, libpthread
+Source: package/libs/libump
+License: Apache-2.0
+Section: libs
+Architecture: sunxi
+Installed-Size: 10582
+Description:  The ARMs Universal Memory Provider userspace library.
+ This library is a requirement for ARMs binary Mali driver.

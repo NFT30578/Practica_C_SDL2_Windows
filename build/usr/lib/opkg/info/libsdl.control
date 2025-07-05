@@ -1,0 +1,9 @@
+Package: libsdl
+Version: 1.2.15-15
+Depends: libc, libssp, librt, libpthread
+Source: package/miyoo/libsdl
+Section: utils
+Architecture: sunxi
+Installed-Size: 100655
+Description:  SDL is a library that allows programs portable low level access to a video
+ framebuffer, audio output, mouse, and keyboard.

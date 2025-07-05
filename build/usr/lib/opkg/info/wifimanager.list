@@ -1,0 +1,16 @@
+/etc/wifi/wpa_supplicant_overlay.conf
+/usr/include/status_info.h
+/etc/wifi/wpa_supplicant.conf
+/usr/include/tool.h
+/etc/wifi/wpa_supplicant_src.conf
+/usr/include/scan.h
+/usr/include/wpa_ctrl.h
+/usr/include/wpa_supplicant_conf.h
+/usr/include/wifi_intf.h
+/lib/libwifimg.so
+/usr/include/wmg_debug.h
+/usr/include/wifi_event.h
+/etc/wifi/udhcpc_wlan0
+/usr/include/wifi_udhcpc.h
+/usr/include/wifi.h
+/etc/init.d/wpa_supplicant

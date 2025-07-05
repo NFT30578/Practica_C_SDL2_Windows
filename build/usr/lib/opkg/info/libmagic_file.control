@@ -1,0 +1,8 @@
+Package: libmagic_file
+Version: 1.5.0-15
+Depends: libc, libssp, librt, libpthread, bzip2, zlib
+Source: package/miyoo/libmagic_file
+Section: utils
+Architecture: sunxi
+Installed-Size: 82698
+Description:  libmagic library and file command

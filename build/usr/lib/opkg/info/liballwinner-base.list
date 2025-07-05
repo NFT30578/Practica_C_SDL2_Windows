@@ -1,0 +1,3 @@
+/sbin/write_misc
+/sbin/read_misc
+/lib/libawbase.so

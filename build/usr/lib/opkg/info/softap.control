@@ -1,0 +1,8 @@
+Package: softap
+Version: 0.0.1-1
+Depends: libc, libssp, librt, libpthread, libpthread, libstdcpp, liballwinner-base, libopenssl, iw, hostapd, dnsmasq, iptables
+Source: package/allwinner/softap
+Section: utils
+Architecture: sunxi
+Installed-Size: 10911
+Description:  Tina softap manager
