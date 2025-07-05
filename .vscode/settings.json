@@ -1,8 +1,0 @@
-{
-    "terminal.integrated.copyOnSelection": true,
-    "files.associations": {
-        "sdl_ttf.h": "c",
-        "sdl.h": "c",
-        "stdio.h": "c"
-    }
-}

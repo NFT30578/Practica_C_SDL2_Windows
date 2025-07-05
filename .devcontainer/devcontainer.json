@@ -1,30 +1,19 @@
 {
     // Nombre del entorno de Codespace
-    "name": "Miyoo A30 C Cross-Compilation",
-
-    // Ruta al Dockerfile dentro de la carpeta .devcontainer/
-    "dockerFile": "Dockerfile",
-
-    // *** NUEVA LÍNEA IMPORTANTE: Define el contexto de construcción para el Dockerfile ***
-    // ".." se refiere al directorio padre de .devcontainer/, que es la raíz del repositorio.
-    "context": "..",
-
-    // Define el usuario remoto dentro del contenedor. 'root' es necesario aquí porque el Dockerfile
-    // instala herramientas directamente en ubicaciones de sistema que requieren permisos de root.
-    "remoteUser": "root",
-
-    // Instala herramientas y características comunes para desarrollo C/C++
+    "name": "C-SDL2-Prueba",
+    // Imagen base del contenedor
+    // Usamos una imagen base de Ubuntu para compatibilidad con SDL2 y herramientas de desarrollo C/C++
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    //gcc y utilidades comunes, para compilar y ejecutar programas C/C++
+    // Definimos las características del contenedor
     "features": {
-        // Herramientas comunes como 'curl', 'git', 'unzip', etc.
-        "ghcr.io/devcontainers/features/common-utils:2": {}
-        // IMPORTANTE: 'ghcr.io/devcontainers/features/cpp:1' HA SIDO ELIMINADO.
-        // Las herramientas de compilación C/C++ son instaladas directamente por el Dockerfile.
+        "gcc":{},
+        "common-utils":{}
     },
+    // comandos que se ejecutarán al crear el contenedor
+    // Aquí instalamos las dependencias necesarias para SDL2 y sus extensiones
+    "postCreateCommand": "apt update && apt install -y libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev libsdl2-mixer-dev",
 
-    // Comandos a ejecutar una vez que el Codespace está creado y conectado
-    // Aseguramos permisos y diagnóstico de carga de config.sh.
-    "postCreateCommand": "chmod +x /root/config.sh && echo 'Config.sh permissions set.' && source /root/config.sh && echo 'Config.sh sourced automatically.'",
-    
     // Personalizaciones para VS Code dentro del Codespace
     "customizations": {
         "vscode": {
@@ -33,11 +22,5 @@
                 "ms-vscode.cmake-tools"        // Soporte para CMake, útil para proyectos C/C++
             ]
         }
-    },
-
-    // Montajes de volumen (opcional, Codespaces maneja el montaje del repo automáticamente)
-    // "mounts": [],
-
-    // Puertos a reenviar (no necesario para compilación, pero útil si tu juego tiene un servidor de depuración o similar)
-    // "forwardPorts": []
+    }
 }
