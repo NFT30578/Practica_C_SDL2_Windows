@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS =	-Ithird_party/SDL2/SDL2-2.26.1/	-Ithird_party/SDL2/SDL2-2.26.1/include/SDL	-Ithird_party/SDL2_ttf-2.0.13
-LDFLAGS =	-Lthird_party/SDL2/lib	-Lthird_party/SDL2_ttf/lib
+LDFLAGS =	-Lthird_party/SDL2/lib	-Lthird_party/SDL2_ttf/lib	-lSDL2 -lSDL2_ttf
 
 SRC =	/workspaces/Practica_C_SDL2_Windows/src/main.c
 OUT =	main

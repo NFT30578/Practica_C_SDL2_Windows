@@ -12,7 +12,9 @@
         "-Ithird_party/SDL2/SDL2-2.26.1/include",
         "-Ithird_party/SDL2_ttf/SDL2_ttf-2.0.13",
         "-Lthird_party/SDL2/lib",
-        "-Lthird_party/SDL2_ttf/lib"
+        "-Lthird_party/SDL2_ttf/lib",
+        "-lSDL2",
+        "-lSDL2_ttf"
       ],
       "group": {
         "kind": "build",
