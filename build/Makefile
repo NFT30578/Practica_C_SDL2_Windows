@@ -1,33 +1,18 @@
-# Archivo: Makefile
+CC = gcc
+CFLAGS =	-Ithird_party/SDL2/include	-Ithird_party/SDL2/SDL2-2.26.1/include	-Ithird_party/SDL2_ttf/include	
+LDFLAGS =	-Lthird_party/SDL2/lib	-Lthird_party/SDL2_ttf/lib	-lSDL2 -lSDL2_ttf
 
-# Incluye las variables de configuración del entorno (MARCH, SDL_LIBS, etc.)
-# Asegúrate de que este script esté accesible y se ejecute antes de make
-include config.sh
+SRC =	/workspaces/Practica_C_SDL2_Windows/src/main.c
+OUT =	main
 
-TARGET = build/mi_juego
-SRCS = src/main.c src/hello_sdl2.c src/jugador/jugador.c src/enemigo/enemigo.c
-OBJS = $(SRCS:.c=.o)
+$(OUT):	$(SRC)
+	@echo $(CC) $(SRC) $(CFLAGS) $(LDFLAGS) -o $(OUT)
+# Makefile for building a simple SDL2 application
+# This Makefile assumes you have SDL2 and SDL2_ttf installed in the specified directories
+# Adjust the paths as necessary for your environment
+.PHONY:	all clean
 
-# Compilador C y C++ de compilación cruzada
-CC = arm-linux-gnueabihf-gcc
-CXX = arm-linux-gnueabihf-g++
-
-# Banderas de compilación
-# -g: Incluir información de depuración
-# -O2: Nivel de optimización 2
-# -Wall: Habilitar todas las advertencias
-# Las variables del toolchain y SDL vienen de config.sh
-CFLAGS = -g -O2 -Wall $(MARCH) -I ../include $(SDL_INCLUDE)
-LDFLAGS = $(SDL_LIB_PATHS) $(SDL_LIBS)
-
-all: $(TARGET)
-
-build/mi_juego: build/main.o build/hello_sdl2.o build/jugador/jugador.o build/enemigo/enemigo.o
-	$(CC) $^ -o $@ $(LDFLAGS)
-
-build/%.o: src/%.c
-	@mkdir -p $(dir $@)
-	$(CC) $(CFLAGS) -c $< -o $@
+all:	$(OUT)
 
 clean:
-	rm -f build/*.o build/jugador/*.o build/enemigo/*.o build/mi_juego
+	rm	-f	$(OUT)
