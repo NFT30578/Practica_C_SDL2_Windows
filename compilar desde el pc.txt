@@ -3,9 +3,10 @@
 
 cd /c/Users/vikto/Documents/GitHub/Practica_C_SDL2_Windows
 
-3- compilar:
+3- dar permisos al .sh:
 
-//modificar cuando se añada mas contenido como imagenes..
-gcc -o main src/main.c `sdl2-config --cflags --libs`
+chmod +x build.sh
 
-4- abrir excel
+4- ejecutar:
+
+./build.sh
