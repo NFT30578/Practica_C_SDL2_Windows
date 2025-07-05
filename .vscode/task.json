@@ -9,6 +9,7 @@
                 "-o", "main",
                 "src/main.c",
                 "`sdl2-config --cflags --libs`",
+                "-IthirdParty/SDL2-2.26.1/x86_64-w64-mingw32/include/SDL2",
                 "-lSDL2_image",
                 "-lSDL2_ttf",
                 "-lSDL2_mixer"
